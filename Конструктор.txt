@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>[TITLE]</title>
+<link type="text/css" rel="StyleSheet" href="/_st/my.css" />
+<link type="text/css" rel="StyleSheet" href="http://s103.ucoz.net/src/base.css" />
+<link type="text/css" rel="StyleSheet" href="http://s103.ucoz.net/src/layer6.css" />
+<script type="text/javascript" src="http://s103.ucoz.net/src/jquery-1.7.2.js"></script>
+<script type="text/javascript">var ulb = {closeBtn: 'Закрыть', error: 'Запрошенный контент не может быть загружен<br/>Пожалуйста, попробуйте позже.', next: 'Вперед', prev: 'Предыдуший', btnPlay: 'Начать слайдшоу', btnToggle: 'Изменить размер'}</script>
+<link href="http://s103.ucoz.net/src/ulightbox/ulightbox.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="http://s103.ucoz.net/src/ulightbox/ulightbox.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<!-- <header> -->
+<div id="header">
+<div id="logo"><a href="/" title="Главная страница сайта"><img src="/design_47/logotype.png" alt="Logotype"></a></div>
+<div id="head_menu">
+<div id="head_menu_in">
+<ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/forum/">Форум</a></li>
+<li><a href="/load/">Загрузки</a></li>
+<li><a href="/publ/">Статьи</a></li>
+
+<?if($USER_LOGGED_IN$)?>
+<li><a href="$PERSONAL_PAGE_LINK$">Мой профиль</a></li>
+<li><a href="$LOGOUT_LINK$">Выход</a></li>
+<?else?>
+<li><a href="$REGISTER_LINK$">Регистрация</a></li>
+<li><a href="$LOGIN_LINK$" rel="nofollow" onclick="new _uWnd('LF',' ',-250,-110,{autosize:0,closeonesc:1,resize:1},{url:'/index/40'});return false;">Вход</a></li>
+<?endif?>
+</ul>
+<form method="get" action="/search/" id="search">
+ <input id="s_button" type="submit" value="ОК">
+ <input id="s_text" type="text" name="q" maxlength="45" value=""> 
+ <input type="hidden" name="t" value="0"> 
+</form>
+</div>
+</div>
+<div id="head_banners">
+<div class="center_ba">
+<div class="ba_img"><a href="#"><img src="/design_47/banner88.png"></a></div>
+<div class="b_line"></div>
+<div class="ba_img" style="margin-top:0;"><div id="adb"><a href="#"><img src="/design_47/imgba.png"></a></div></div>
+<div class="b_line"></div>
+<div class="ba_img"><a href="#"><img src="/design_47/banner88.png"></a></div>
+</div>
+</div>
+</div>
+<!-- </header> -->
+
+<!-- <middle> -->
+<div id="side">
+<div id="side_left">
+<!-- <container> --><!-- <block> -->
+
+<div class="block">
+<div class="b_title">TITLE</div>
+<div class="b_body">
+CONTENT
+</div>
+<div class="b_bott"></div>
+</div>
+<!-- </block> --><!-- </container> -->
+</div>
+<div id="side_right">
+[BODY]
+</div>
+</div>
+<!-- </middle> -->
+<!-- <footer> -->
+<div id="footer">
+<div id="f_left">
+Все материалы сайта защищены законодательством об авторском праве и их копирование должно быть согласовано с авторами. <br>
+Частичное или полное копирование любых материалов сайта возможно только с указанием ссылки на первоисточник - сайт FreeRip.3dn.Ru <br>
+© <a title="Шаблоны для uСoz" href="http://ru-minecraft.org/" target="_blank">Minecraft</a> 2010-2013. Все права защищены. $POWERED_BY$ <br>
+</div>
+</div>
+<script>
+$(document).ready(function() {
+ $("div.gDivRight").append('<div class="gTableBott"></div></div>');
+});
+</script>
+<script type="text/javascript" src="/js/uptop.js"></script>
+<div class="upTop green"> 
+ <div class="upTopZone"><p>наверх</p></div> 
+ <div class="upTopButton"></div> 
+</div>
+<div id="WU_TBlock_5487"></div>
+<!-- </footer> -->
+</div>
+</body>
+</html>
+<!-- <popup> -->
+<table border="0" cellpadding="2" cellspacing="1" width="100%">
+<tr><td align="center"><b>[TITLE]</b></td></tr>
+<tr><td align="center" style="padding:5px;">[BODY]</td></tr>
+</table>
+<!-- </popup> -->

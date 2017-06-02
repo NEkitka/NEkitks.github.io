@@ -1,0 +1,86 @@
+<!-- <block9669> -->
+<?if($LOGIN_FORM$)?>
+<div class="block">
+<div class="b_title">Форма входа</div>
+<div class="b_body">
+$LOGIN_FORM$
+</div>
+<div class="b_bott"></div>
+</div>
+<?endif?>
+<!-- </block9669> -->
+
+<!-- <block1> -->
+<div class="block">
+<div class="b_title"><!-- <bt> -->Полезные загрузки<!-- </bt> --></div>
+<div class="b_body">
+<!-- <bc> --><ul class="b_menu">
+ <li><a href="#" title="Игровые клиенты Minecraft"><b>Игровые клиенты</b> Minecraft</a></li>
+<li><a href="#" title="Текстуры для Minecraft"><b>Текстуры</b> для Minecraft</a></li>
+<li><a href="#" title="Карты для Minecraft"><b>Карты</b> для Minecraft</a></li>
+<li><a href="#" title="Моды для Minecraft"><b>Моды</b> для Minecraft</a></li>
+<li><a href="#"><b>Софт</b> для Minecraft</a></li>
+</ul><!-- </bc> -->
+</div>
+<div class="b_bott"></div>
+</div>
+<!-- </block1> -->
+
+<!-- <block1899> -->
+<div class="block">
+<div class="b_title"><!-- <bt> -->Полезные статьи<!-- </bt> --></div>
+<div class="b_body">
+<!-- <bc> --><ul class="b_menu">
+<li><a href="#" title="Рецепты крафтинга Minecraft"><b>Рецепты крафтинга</b> Minecraft</a></li>
+<li><a href="#" title="Как установить текстуры">Как <b>установить текстуры</b></a></li>
+<li><a href="#" title="Как установить карту">Как <b>установить карту</b></a></li>
+<li><a href="#" title="Как установить мод">Как <b>установить мод</b></a></li>
+</ul><!-- </bc> -->
+</div>
+<div class="b_bott"></div>
+</div>
+<!-- </block1899> -->
+
+<!-- <block9357> -->
+
+<div class="block">
+<div class="b_title"><!-- <bt> -->Опрос<!-- </bt> --></div>
+<div class="b_body">
+$POLL$
+</div>
+<div class="b_bott"></div>
+</div>
+
+<!-- </block9357> -->
+
+
+<!-- <block3> -->
+<?if($CATEGORIES$)?>
+<div class="block">
+<div class="b_title"><!-- <bt> --><!--<s5351>-->Категории раздела<!--</s>--><!-- </bt> --></div>
+<div class="b_body">
+<!-- <bc> -->$CATEGORIES$<!-- </bc> -->
+</div>
+<div class="b_bott"></div>
+</div>
+<?endif?>
+<!-- </block3> -->
+
+
+<!-- <block2> -->
+
+<!-- </block2> -->
+
+<!-- <block3> -->
+<div class="block">
+<div class="b_title"><!-- <bt> -->Статистика<!-- </bt> --></div>
+<div class="b_body">
+<!-- <bc> -->
+<div style="margin:-4px 0 0;">
+<div class="tOnline" id="onl1">$ONLINE_COUNTER$</div>
+</div>
+<!-- </bc> -->
+</div>
+<div class="b_bott"></div>
+</div>
+<!-- </block3> -->

@@ -1,0 +1,17 @@
+<div style="width:auto;*width:100%;margin-left:20px;" id="appEntry339270"><b></b></div><div id="comEnt339269"><div class="view_comm">
+<div class="comm_top">
+<a href="#ent339269" onclick="if (document.getElementById('comEnt339269')){$('body').scrollTo( { top:$('#comEnt339269').offset().top-22, left:0}, 500 );return false;}" name="ent339269"><span>$NUMBER$</span></a>
+<a href="$PROFILE_URL$" target="_blank"><span>$NAME$</span></a>
+<span style="background:none;">$DATE$</span>
+<div style="float:right;">
+<strong><span style="color:#909090">$COMMENT_RATING$</span></strong>
+<?if($GOOD_COMMENT_URL$)?><a href="$GOOD_COMMENT_URL$" rel="nofollow" onclick="_uPostForm('',{url:'$GOOD_COMMENT_URL$'});return false;"><img alt="" src="http://planetminecraft.ru/design_47/like_butt.png" title="Хороший пост" style="margin:0 3px;vertical-align:-1px;"></a><?endif?>  
+<span style="float:none;display:inline-block;background:none;padding:0;margin:-1px 0 0 3px;"></span>
+</div>
+</div>
+<div class="comm_body">
+<div class="comm_ava"><a href="$PROFILE_URL$" target="_blank" title="$NAME$"><img alt="" align="left" src="$USER_AVATAR_URL$"></a></div>
+<div style="padding-top:3px;margin:0 0 20px 76px;">$MESSAGE$ $MODER_PANEL$</div>
+<?if($ANSWER_URL$)?><div class="comm_answer"><a href="$ANSWER_URL$">Ответить</a></div><?endif?>
+</div>
+</div></div>

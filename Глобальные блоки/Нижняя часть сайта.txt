@@ -1,0 +1,18 @@
+<div id="footer">
+<div id="f_left">
+Все материалы сайта защищены законодательством об авторском праве и их копирование должно быть согласовано с авторами. <br>
+Частичное или полное копирование любых материалов сайта возможно только с указанием ссылки на первоисточник - сайт FreeRip.3dn.Ru <br>
+© <a title="Шаблоны для uСoz" href="http://manucoz.ru/" target="_blank">Шаблоны для uСoz</a> 2010-2013. Все права защищены. $POWERED_BY$ <br>
+</div>
+</div>
+<script>
+$(document).ready(function() {
+ $("div.gDivRight").append('<div class="gTableBott"></div></div>');
+});
+</script>
+<script type="text/javascript" src="/js/uptop.js"></script>
+<div class="upTop green"> 
+ <div class="upTopZone"><p>наверх</p></div> 
+ <div class="upTopButton"></div> 
+</div>
+<div id="WU_TBlock_5487"></div>

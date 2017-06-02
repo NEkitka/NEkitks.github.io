@@ -1,0 +1,40 @@
+<tr id="post30234"><td class="postFirst"><div class="post_top">
+<div class="p_sub_topl">
+
+<span class="status_img" style="background-position:0 0;"></span>
+<a class="postUser" style="background:#679832;" href="javascript://" onClick="emoticon('[b]$USERNAME$[/b],');return false;">$USERNAME$</a>
+</div>
+<div class="p_sub_topr">
+$WDAY$, $DATE$, $TIME$  | Сообщение #$NUMBER$
+</div>
+</div>
+<div class="post_center">
+<div class="p_info">
+<div class="p_ava"><?if($AVATAR_URL$)?><img src="$AVATAR_URL$" alt="$USERNAME$" title="$USERNAME$"><?else?><img src="http://planetminecraft.ru/design_47/noavatar.png" alt="$USERNAME$" title="$USERNAME$"><?endif?></div>
+<div class="p_user_group">$GROUP_ICON$</div>
+<div class="p_view_info">
+<ul>
+<?if($POSTS$)?><li>Сообщения <div>$POSTS$</div></li><?endif?>
+<?if($READ_REP_URL$)?><li>Репутация <div><a href="$DO_REP_URL$" class="plus_minus">-</a> <span></span> <a href="$READ_REP_URL$">$REP_RATING$</a> <span></span> <a href="$DO_REP_URL$" class="plus_minus">+</a></div></li><?endif?>
+<?if($READ_BAN_URL$)?><li>Замечания <div><a href="$READ_BAN_URL$">$BAN_RATING$</a><?if($DO_BAN_URL$)?> <a href="$DO_BAN_URL$" class="plus_minus">+</a><?endif?> <span></span> </div></li><?endif?>
+</ul>
+</div>
+</div>
+<div class="p_message">
+$MESSAGE$
+<br>
+ 
+     <?if($ATTACHMENT$)?>  
+<hr size="1" width="150" align="left" class="signatureHr">Прикрепления: $ATTACHMENT$<?endif?>
+ <?if($EDITEDBY$)?>   
+     <hr size="1" width="150" align="left" class="signatureHr">Сообщение отредактировал $EDITEDBY$<?endif?>
+   <?if($SIGNATURE$)?> 
+    <hr size="1" width="150" align="left" class="signatureHr">$SIGNATURE$<?endif?>
+</div>
+</div>
+<div class="post_bott">
+<div class="p_sub_bottl">&nbsp;</div>
+<div class="p_sub_bottr">
+<span style="float:left">$USER_DETAILS_ICON_BAR$</span> <span style="float:right;padding-right:10px;">$ENTRY_MANAGE_ICON_BAR$$ON_TOP_ICON$$DEL_ENTRY_FIELD$</span>
+</div>
+</div></td></tr>

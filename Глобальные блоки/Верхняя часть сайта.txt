@@ -1,0 +1,35 @@
+<div id="header">
+<div id="logo"><a href="/" title="Главная страница сайта"><img src="/design_47/logotype.png" alt="Logotype"></a></div>
+<div id="head_menu">
+<div id="head_menu_in">
+<ul>
+<li><a href="/">Главная</a></li>
+<li><a href="/forum/">Форум</a></li>
+<li><a href="/load/">Загрузки</a></li>
+<li><a href="/publ/">Статьи</a></li>
+
+<?if($USER_LOGGED_IN$)?>
+<li><a href="$PERSONAL_PAGE_LINK$">Мой профиль</a></li>
+<li><a href="$LOGOUT_LINK$">Выход</a></li>
+<?else?>
+<li><a href="$REGISTER_LINK$">Регистрация</a></li>
+<li><a href="$LOGIN_LINK$" rel="nofollow" onclick="new _uWnd('LF',' ',-250,-110,{autosize:0,closeonesc:1,resize:1},{url:'/index/40'});return false;">Вход</a></li>
+<?endif?>
+</ul>
+<form method="get" action="/search/" id="search">
+ <input id="s_button" type="submit" value="ОК">
+ <input id="s_text" type="text" name="q" maxlength="45" value=""> 
+ <input type="hidden" name="t" value="0"> 
+</form>
+</div>
+</div>
+<div id="head_banners">
+<div class="center_ba">
+<div class="ba_img"><a href="#"><img src="/design_47/banner88.png"></a></div>
+<div class="b_line"></div>
+<div class="ba_img" style="margin-top:0;"><div id="adb"><a href="#"><img src="/design_47/imgba.png"></a></div></div>
+<div class="b_line"></div>
+<div class="ba_img"><a href="#"><img src="/design_47/banner88.png"></a></div>
+</div>
+</div>
+</div>

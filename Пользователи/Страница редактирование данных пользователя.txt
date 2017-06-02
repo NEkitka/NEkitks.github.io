@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Изменение личной информации</title>
+<link type="text/css" rel="StyleSheet" href="/_st/my.css" />
+<link type="text/css" rel="StyleSheet" href="http://s103.ucoz.net/src/base.css" />
+<link type="text/css" rel="StyleSheet" href="http://s103.ucoz.net/src/layer6.css" />
+<script type="text/javascript" src="http://s103.ucoz.net/src/jquery-1.7.2.js"></script>
+<script type="text/javascript">var ulb = {closeBtn: 'Закрыть', error: 'Запрошенный контент не может быть загружен<br/>Пожалуйста, попробуйте позже.', next: 'Вперед', prev: 'Предыдуший', btnPlay: 'Начать слайдшоу', btnToggle: 'Изменить размер'}</script>
+<link href="http://s103.ucoz.net/src/ulightbox/ulightbox.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="http://s103.ucoz.net/src/ulightbox/ulightbox.js"></script>
+</head>
+<body>
+<div id="wrapper">
+ 
+<style>
+a, td {color:#909090;}
+textarea {width:99% !important;}
+.bg_form {background:#fff;padding:10px;color:#909090;border-radius:12px;-webkit-border-radius:12px;-moz-border-radius:12px;-o-border-radius:12px;}
+.form_title {text-align:center;font:bold 12px Tahoma, Geneva, sand-serif;margin-bottom:5px;padding-bottom:10px;border-bottom:1px solid #dadada;}
+</style>
+
+<div id="header">
+<div id="logo"><a href="/" title="Главная страница сайта"><img src="/design_47/logotype.png" alt="Logotype"></a></div>
+</div>
+
+<div class="bg_form">
+<div class="form_title">Изменение личной информации</div>
+$BODY$
+</div>
+
+</div>
+
+</body>
+</html>

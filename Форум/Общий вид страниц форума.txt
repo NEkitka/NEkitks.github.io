@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>$FORUM_TITLE$</title>
+<link type="text/css" rel="StyleSheet" href="/_st/my.css" />
+<link type="text/css" rel="StyleSheet" href="http://s103.ucoz.net/src/base.css" />
+<link type="text/css" rel="StyleSheet" href="http://s103.ucoz.net/src/layer6.css" />
+<script type="text/javascript" src="http://s103.ucoz.net/src/jquery-1.7.2.js"></script>
+<script type="text/javascript">var ulb = {closeBtn: 'Закрыть', error: 'Запрошенный контент не может быть загружен<br/>Пожалуйста, попробуйте позже.', next: 'Вперед', prev: 'Предыдуший', btnPlay: 'Начать слайдшоу', btnToggle: 'Изменить размер'}</script>
+<link href="http://s103.ucoz.net/src/ulightbox/ulightbox.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="http://s103.ucoz.net/src/ulightbox/ulightbox.js"></script>
+<script type="text/javascript" src="http://s103.ucoz.net/src/uwnd.js?2"></script><style type="text/css">.UhideBlockL {display:none}</style>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+$GLOBAL_AHEADER$
+
+<div id="forumContent">
+<table border="0" cellpadding="0" height="30" cellspacing="0" width="100%" id="forum_nav">
+<tr>
+<td>
+<a class="fNavLink" href="$RECENT_POSTS_LINK$" rel="nofollow"><strong>Новые сообщения •</strong></a> 
+
+<?if($USER_LOGGED_IN$)?><a href="javascript://" rel="nofollow" id="upml" class="fNavLink" onclick="window.open('/index/14','pmw','scrollbars=1,top=0,left=0,resizable=1,width=680,height=350');return false;">Личные сообщения($UNREAD_PM$)</a> •<?endif?>
+<a class="fNavLink" href="$MEMBERS_LIST_LINK$" rel="nofollow">Участники</a> • 
+<a class="fNavLink" href="$BOARD_RULES_LINK$" rel="nofollow">Правила форума</a> •
+<a class="fNavLink" href="$SEARCH_PAGE_LINK$" rel="nofollow">Поиск</a> 
+<a class="fNavLink" href="$RSS_LINK$" rel="nofollow"><strong>• RSS</strong></a></td>
+</tr>
+</table>
+$BODY$
+  </div>
+    
+$GLOBAL_BFOOTER$
+</div>
+<style>
+.gTableRight {border-right:0;}
+</style>
+
+</body>
+</html>

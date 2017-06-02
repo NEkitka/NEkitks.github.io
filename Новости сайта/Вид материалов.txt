@@ -1,0 +1,16 @@
+<div id="entryID494"><div class="view_material">
+<div class="m_title"><a href="$ENTRY_URL$">$TITLE$</a></div>
+<div class="m_body">
+<div class="m_image"><a href="$IMG_URL1$" class="ulightbox"><img src="$IMG_URL1$" alt="$TITLE$"></a></div>
+<div class="m_message">
+$MESSAGE$ $MODER_PANEL$
+</div>
+<div class="m_info">
+<span><strong>Дата:</strong> $DATE$</span>
+<span><strong>Добавил:</strong> <a href="$PROFILE_URL$" target="_blank">$USERNAME$</a></span>
+<span><strong>Просмотров:</strong> $READS$</span>
+<span style="padding-right:0;background:none;"><strong>Комментариев:</strong>   $COMMENTS_NUM$</span>
+<a href="$ENTRY_URL$" title="Подробнее о $TITLE$"><div>Подробнее</div></a>
+</div>
+</div>
+</div></div>
